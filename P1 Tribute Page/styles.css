@@ -1,0 +1,48 @@
+h1, h2, h4 {
+    margin: 10px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    width: 700px; 
+    height: 400px;
+    margin: 15px;
+    background-color: #D3D3D3;
+    border: 50px solid white;
+
+}
+
+section {
+    
+    margin: auto ;
+    padding: 10px;
+    background-color: #D3D3D3;
+    border-radius: 8px;
+}
+
+
+ul {
+width: fit-content;
+margin: 0 auto;
+padding-left: 40px;
+display: inline-block;
+text-align: left;
+max-width: 500px;
+list-style-position: outside;
+}
+
+
+li {
+margin: 15px 0;
+line-height: 1.5;
+text-align: center;
+width: fit-content;
+font-size: 0.8 em; 
+
+}

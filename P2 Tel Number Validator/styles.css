@@ -1,0 +1,78 @@
+body {
+  background: #020035;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: monospace;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.phone-body {
+  background-color: white;
+  color: #000000;
+  padding: 15px;
+  border-radius: 25px;
+  width: 300px;
+  min-height: 600px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.input-text {
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.1rem;
+}
+
+input {
+  background-color: #eee;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 1rem;
+  color: black;
+  box-shadow: 0 0.4rem #dfd9d9;
+  box-sizing: border-box;
+}
+
+#output {
+  margin: 15px 0;
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  color: black;
+  padding: 8px 20px;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  margin: 0 15px;
+}
